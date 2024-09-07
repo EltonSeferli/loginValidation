@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* body {
+  background-color: #ee2433;
+} */
+.container {
+  width: 70%;
+  height: 600px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 0;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.div1 {
+  background-color: #ee2433;
+  width: 40%;
+  height: 100%;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.div1 img {
+  width: 300px;
+  height: 300px;
+}
+.div1 h2 {
+  color: white;
+}
+.div2 {
+  padding: 50px;
+  background-color: white;
+  width: 60%;
+  overflow: hidden;
+}
+.inputs {
+  display: grid;
+  grid-template-areas: "1fr 1fr";
+  width: 100%;
+  gap: 10px;
+}
+.inputDIV {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 100px;
+}
+.input {
+  padding: 5px;
+  width: 300px;
+  outline: none;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 20px;
+}
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin-top: 20px;
+}
+.buttons button {
+  padding: 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  width: 240px;
+}
+.createAcc {
+  background-color: #ee2433;
+  color: white;
+}
+.signinGg {
+  background-color: rgb(41, 40, 78);
+  color: white;
+}
